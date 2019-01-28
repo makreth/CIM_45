@@ -1,0 +1,48 @@
+body{
+	background-color: grey;
+}
+
+div{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background-color: white;
+	width: 800px;
+	margin: auto;
+	border-left: 2px dashed black;
+	border-right: 2px dashed black;
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+p{
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1{
+	text-align: center;
+	font-size: 32px;
+}
+
+h3{
+	border-bottom: 2px dashed black;
+	padding: 8px;
+	font-size: 24px;
+}
+
+article{
+	box-sizing: border-box;	
+}
+
+article > img{
+	float: left;
+	margin-right: 32px;
+}
+
+article > p{
+	height: 300px;
+}
+
+li > a{
+	font-size: 24px;
+}
