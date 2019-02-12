@@ -5,33 +5,31 @@
 		<title>CIM 45 Student Intro</title>
 		<link href="style.css" rel = "stylesheet" type = "text/css" />
         
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $("#anim_button").click(function(){
-                    var h = $("#mainHeader");
-                    h.animate(
-                        {
-                            fontSize: '+=32px'
-                        }, 4500
-                    );
-                    
-                    h.animate(
-                        {
-                            fontSize: '-=32px',
-                        }, 250
-                    );
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script>
+		    $(document).ready(function(){
+			$("#anim_button").click(function(){
+			    var h = $("#mainHeader");
+			    h.animate(
+				{
+				    fontSize: '+=32px'
+				}, 4500
+			    );
 
-                    h.css("color", "blue");
+			    h.animate(
+				{
+				    fontSize: '-=32px',
+				}, 250
+			    );
 
-                    $("#profile").css(
-                        "border", "6px blue solid"
-                    );
-                });
-            });
-        </script>
-    
-    
+			    h.css("color", "blue");
+
+			    $("#profile").css(
+				"border", "6px blue solid"
+			    );
+			});
+		    });
+		</script>
     </head>
 	
 	<body>
